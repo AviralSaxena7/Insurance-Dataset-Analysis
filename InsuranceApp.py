@@ -4,7 +4,7 @@ import joblib
 
 models = {
     'Best Model': joblib.load('best_model.pkl')
-}
+} 
 
 input_features = ['age', 'sex', 'bmi', 'children', 'smoker', 'region']
 
